@@ -1,0 +1,13 @@
+ // With arguments and without return value : 
+ void Product(int x ,int y ); /* Declaration of Function */ 
+
+			// Other Code 
+Product(5,4) /* Calling Product Function in main() */ 
+
+
+void Product(int a,int b) 
+{ 
+	int Multiplication; 
+	Multiplication = a*b ; /* Definition of Function */ 
+	printf("The Product is %d\n\n",Multiplication); 
+} 

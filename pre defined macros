@@ -1,0 +1,22 @@
+__DATE__:
+It prints the current date on to the screen. The date format it follows is MMMDDYYY.
+__TIME__:
+It prints the current time on to the screen. The date format it follows is HH:MM:SS.
+__FILE__:
+It prints the current file name on to the screen. The name will be printed as a string literal.
+__LINE__:
+It prints the current line number on to the screen. The number will be printed as a decimal constant.
+__STDC__:
+It is used to check whether our program is being compiler using ANSI standard or not. It will return 1 if true.
+
+Syntax:
+#include <stdio.h>
+int main()
+{
+                printf( __DATE__);
+                printf( __TIME__);
+                printf( __FILE__);
+                printf( “%d”__LINE__);
+                printf("%d\n", __STDC__);
+                return 0;
+}

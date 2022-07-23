@@ -18,6 +18,7 @@ int main()
     int x1, y1, x2, y2;
     float dst;
     // Take x1, y1 and x2, y2 from the user using scanf
+    
     printf("Enter the value of x1\n");
     scanf("%d", &x1);
 
